@@ -26,3 +26,13 @@ You can also embed plots, for example:
 <img src="pressure-1.png" style="display: block; margin: auto;" />
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## 插入表格
+| 记法 | 含义 |
+| :-: |:-----:|
+| %N | 作业号 |
+| %S | 以字符串S开头的被(命令行)调用的作业 |
+| %?S | 包含字符串S的被(命令行)调用的作业 |
+| %% | "当前"作业(前台最后结束的作业, 或后台最后启动的作业) |
+| %+ | "当前"作业(前台最后结束的作业, 或后台最后启动的作业)|
+| %- | 最后的作业|
+| $! | 最后的后台进程 |
