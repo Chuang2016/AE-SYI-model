@@ -36,3 +36,19 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 | %+ | "当前"作业(前台最后结束的作业, 或后台最后启动的作业)|
 | %- | 最后的作业|
 | $! | 最后的后台进程 |
+
+##插入html表格格式
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td bgcolor=#C0FF3E> row 2, cell 2</td>
+    </tr>
+</table>
