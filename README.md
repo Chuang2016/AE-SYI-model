@@ -22,7 +22,7 @@ Including Plots
 
 You can also embed plots, for example:
 
-![pressure](/pressure-1.png)
 
+<img src="pressure-1.png" style="display: block; margin: auto;" />
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
