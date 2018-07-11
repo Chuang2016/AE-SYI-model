@@ -37,7 +37,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 | %- | 最后的作业|
 | $! | 最后的后台进程 |
 
-##插入html表格格式
+## 插入html表格格式
 <table border="1">
     <tr>
         <th>Header 1</th>
@@ -50,5 +50,36 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
     <tr>
         <td>row 2, cell 1</td>
         <td bgcolor=#C0FF3E> row 2, cell 2</td>
+    </tr>
+</table>
+
+## links
+<table border="1">
+    <tr>
+        <th>学术网址</th>
+        <th>科学院</th>
+		<th>影音搜索</th>
+    </tr>
+    <tr>
+        <td><a href="https://scholar.google.ca">谷歌学术, </a></td>
+        <td><a href="http://www.whiob.ac.cn">WBG-植物园, </a></td>
+		<td><a href="https://www.google.ca">谷歌搜索, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+    </tr>
+    <tr>
+        <td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+ 		<td><a href="http://onestop.ucas.ac.cn">CAS-登陆, </a></td>
+		<td><a href="https://www.youtube.com">YouTube, </a></td>
+		
+		<td><a href="http://onestop.ucas.ac.cn">CAS-登陆, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
+		<td><a href="http://xueshu.baidu.com/">百度学术, </a></td>
     </tr>
 </table>
